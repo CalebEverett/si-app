@@ -1,0 +1,26 @@
+:global .bar {
+  fill: steelblue;
+}
+
+:global .bar:hover {
+  fill: brown;
+}
+
+:global .bar:active {
+  fill: black;
+}
+
+:global .label {
+	display: none;
+}
+
+:global .axis path,
+:global .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+:global .x.axis path {
+  display: none;
+}

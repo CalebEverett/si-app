@@ -103,6 +103,7 @@ const webpackConfig = {
           'postcss'
         ]
       },
+      { test: /\.csv?$/, loader: 'dsv-loader' }, //will load all .csv files with dsv-loader by default
       /* eslint-disable */
       { test: /\.woff(\?.*)?$/,  loader: 'url?prefix=fonts/&name=[path][name].[ext]&limit=10000&mimetype=application/font-woff' },
       { test: /\.woff2(\?.*)?$/, loader: 'url?prefix=fonts/&name=[path][name].[ext]&limit=10000&mimetype=application/font-woff2' },

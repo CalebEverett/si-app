@@ -38,6 +38,7 @@ const config = {
     colors : true
   },
   compiler_vendor : [
+    'd3',
     'history',
     'react',
     'react-redux',
